@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Convos with HOT – Spinner</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+</head>
+<body>
+<div id="bg-slideshow">
+  <img src="assets/bg1.jpg" class="bg-image" />
+  <img src="assets/bg2.jpg" class="bg-image" />
+  <img src="assets/bg3.jpg" class="bg-image" />
+  <img src="assets/bg4.jpg" class="bg-image" />
+</div>
+
+<div class="overlay"></div>
+
+  <div class="container">
+    <img src="assets/logo.png" alt="HOT Logo" class="logo" />
+   
+<select id="categoryDropdown" class="dropdown">
+  <option value="Wild For Creators">Wild For Creators</option>
+  <option value="Funny & Unexpected">Funny & Unexpected</option>
+  <option value="Deep Af">Deep AF</option>
+  <option value="Fan Zone">Fan Zone</option>
+  <option value="This Or That">This Or That</option>
+</select>
+
+    <div class="phone-frame">
+      <canvas id="wheelCanvas" width="320" height="320"></canvas>
+      <button id="spinBtn">Tap to Spin</button>
+    </div>
+
+<div id="resultBox" class="result-box">
+  🎯 Your question will appear here
+</div>
+
+
+    <p id="result"></p>
+    <audio id="clickSound" src="assets/click.mp3" preload="auto"></audio>
+  </div>
+
+  <script src="script.js"></script>
+
+<footer class="footer">
+  <a href="https://instagram.com/yourhandle" target="_blank">
+    <img src="assets/instagram.png" alt="Instagram" class="social-icon" />
+  </a>
+  <a href="https://twitter.com/yourhandle" target="_blank">
+    <img src="assets/twitter.png" alt="Twitter" class="social-icon" />
+  </a>
+  <a href="https://youtube.com/yourchannel" target="_blank">
+    <img src="assets/youtube.png" alt="YouTube" class="social-icon" />
+  </a>
+  <a href="https://tiktok.com/@yourhandle" target="_blank">
+    <img src="assets/tiktok.png" alt="TikTok" class="social-icon" />
+  </a>
+  <a href="https://yourwebsite.com" target="_blank">
+    <img src="assets/web.png" alt="Website" class="social-icon" />
+  </a>
+</footer>
+
+
+</body>
+</html>
